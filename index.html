@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div class="container" id="signIn">
+    <div class="header">Create your account</div>
+    <div class="mainContent">
+      <form name="form1" id="form1" onsubmit="showCV() ">
+        <label for="firstName">
+          <span>First Name</span>
+          <input class="textArea" type="text" id="firstName" name="firstName" value="" placeholder="First name"
+            required>
+        </label>
+
+
+        <label for="secondName">
+          <span>Second Name</span>
+          <input class="textArea" type="text" id="secondName" name="secondName" value="" placeholder="Second name"
+            required>
+        </label><br>
+
+        <label for="eMail">
+          <span>e-mail</span>
+          <input class="textArea" type="text" id="eMail" name="eMail" value="" placeholder="e-mail address"
+            aria-required="">
+        </label><br>
+
+        <input type="radio" name="radio" value="man" id="manID" required />man
+        <input type="radio" name="radio" value="woman" id="womanID" required />woman
+
+        <select class="textArea" id="chooseID" name="chooseDirection" required>
+          <option value="choose" selected>Choose</option>
+          <option value="frontEnd">FrontEnd</option>
+          <option value="backEnd">BackEnd</option>
+          <option value="qc_qa">QC/QA</option>
+        </select><br>
+        <input type="checkbox" name="check" value="" required /> I agree all statements in Term of service
+        <br /><br />
+        <button class="button" type="submit" id="sign-in-button">Sign Up</button>
+
+      </form>
+    </div>
+
+  </div>
+  <div class="container text-centr displayNone " id="signOut">
+    <div class="header"></div>
+    <div class="mainContainer">
+      <div id="avatar"></div>
+      <h3 class="user_name"></h3>
+      <p class="emailUser"></p>
+      <p class="chooseUser"></p>
+      <button type="button" id="sign-out-button">Sign Out</button>
+    </div>
+    <div class="footer">
+      <i class="fa fa-facebook socialStyle"></i>
+      <i class="fa fa-github socialStyle" aria-hidden="true"></i>
+      <i class="fa fa-linkedin socialStyle" aria-hidden="true"></i>
+    </div>
+
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/f6c0107514.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

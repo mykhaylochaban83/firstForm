@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    margin: 15px auto;
+    border: 2px solid black;
+    width: 400px;
+    height: max-content;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    color: white;
+    font-size: xx-large;
+
+
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+.mainContent {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.textArea {
+    width: 100%;
+    font-size: 22px;
+}
+
+span {
+    font-size: 22px;
+}
+
+#form1 {
+    margin: 15px 15px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayShow {
+
+    display: show;
+}
+
+.text-centr {
+    text-align: center;
+}
+
+input,
+.textArea {
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+
+}
+
+.woman {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 150px;
+    background-size: contain;
+    border-radius: 50px;
+    background-image: url(https://w7.pngwing.com/pngs/550/496/png-transparent-computer-icons-laborer-avatar-silhouettes.png);
+
+}
+
+.man {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 150px;
+    background-size: contain;
+    border-radius: 50px;
+    background-image: url(https://st4.cannypic.com/thumbs/20/202693_632_canny_pic.jpg);
+}
+
+.socialStyle {
+    color: white;
+    font-size: 45px;
+    margin: 20px;
+}
+
+.footer {
+    height: 65px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-out-button {
+    width: 80px;
+    height: 35px;
+    margin: 50px auto;
+    border-radius: 4px;
+
+}
+
+.activeOutButton {
+    background-color: green;
+    color: white;
+}
+
+.activeOverButton {
+    background-color: white;
+    color: green;
+}
+
+input:focus {
+
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+}
+
+select:focus {
+
+    outline: none;
+    box-shadow: 0 0 0 3px lightskyblue;
+}
